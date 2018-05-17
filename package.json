@@ -1,0 +1,28 @@
+{
+  "name": "lucas",
+  "version": "1.0.0",
+  "description": "TP Web CEFET-MG",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasramon01/cefet-web-geiser.git"
+  },
+  "author": "lucas-ramon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasramon01/cefet-web-geiser/issues"
+  },
+  "homepage": "https://github.com/lucasramon01/cefet-web-geiser#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "hbs": "^4.0.1",
+    "pug": "^2.0.3",
+    "underscore": "^1.9.0"
+  }
+}
