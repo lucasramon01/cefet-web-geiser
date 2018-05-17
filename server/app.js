@@ -4,7 +4,7 @@ var express = require('express'),
 
 // carregar "banco de dados" (data/jogadores.json e data/jogosPorJogador.json)
 var db = {
-	players: JSON.parse(fs.readFileSync('server/data/jogadores.json')),
+	players: JSON.parse(fs.readFileSync('server/data/jogadores.json')).players,
 	jogosPorJogador: JSON.parse(fs.readFileSync('server/data/jogosPorJogador.json'))
 };
 
@@ -33,6 +33,5 @@ app.get('/', function (req, res) {
 // jogador, usando os dados do banco de dados "data/jogadores.json" e
 // "data/jogosPorJogador.json", assim como alguns campos calculados
 // dica: o handler desta função pode chegar a ter umas 15 linhas de código
-
 
 
